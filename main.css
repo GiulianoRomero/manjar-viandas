@@ -1,8 +1,11 @@
 /* CSS AL ENTERO index */
+body{
+    background-color: #e97038;
+}
 .entero-index {
     background-color: #e97038;
-    border: solid 2px  #181412;
-
+    
+    
    
 }
 
@@ -25,6 +28,7 @@ header{
 .primer-tit {
     font-family: Indie Flower, cursive;
     margin-left: 40px;
+    font-size: small;
 
 }
 .navegacion li{
@@ -47,6 +51,8 @@ nav {
 .logo-home{
     padding: 20px;
     border-radius: 60px;
+    width: 50px;
+    height: 50px;
 }
 
 
@@ -70,7 +76,10 @@ nav {
     
 } 
 
-
+.img-redes{
+    width: 30px;
+    height: 30px;
+}
 
 .redes {
     display:flex;
@@ -110,14 +119,24 @@ main {
     justify-content: space-between;
 }
 
-
+.imagen-index{
+    width: 50px;
+    height: 50px;
+}
+.tit-img-index {
+    font-size: 0.6rem;
+}
+.txt-index {
+    font-size: 0.4rem;
+}
 
 .main-index section  {
     
     text-align: center;
     line-height: 25px;
     border: 2px solid black;
-    width: 250px;
+    width: 15vh;
+    height: 30vh;
     flex-direction: column;
     
   }
@@ -215,6 +234,7 @@ h5{
 .fin{
     background-color: #e97038;
     margin: 0px;
+    font-size: x-small;
 }
 /* logo whatsapp */
 .loguito{
@@ -228,6 +248,11 @@ h5{
     margin: 0px;
 }
 
+/* ANIMACIONES */
+
+.main-index section:hover{
+    
+}
 /* media queries */
 @media screen and (min-width: 768px) {
 .main-index section  {
@@ -235,6 +260,92 @@ h5{
     text-align: center;
     line-height: 25px;
     border: 2px solid black;
-    width: 250px;
+    width: 15vh;
+    height: 30vh;
     flex-direction: column;
+}
+
+.imagen-index {
+    width: 180px;
+    height: 180px;
+}
+.tit-img-index {
+    font-size: 1rem;
+}
+.txt-index {
+    font-size: 0.9rem;
+
     
+}
+
+.img-redes{
+    width: 60px;
+    height: 60px;
+}
+
+/* logo home */
+.logo-home{
+    padding: 20px;
+    border-radius: 60px;
+    width: 300px;
+    height: 300px;
+}
+    
+
+@media screen and (min-width: 576px) {
+    /* logo home */
+.logo-home{
+    padding: 20px;
+    border-radius: 60px;
+    width: 200px;
+    height: 200px;
+}
+    
+    .imagen-index{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .main-index section  {
+        
+        text-align: center;
+        line-height: 25px;
+        border: 2px solid black;
+        width: 25vh;
+        height: 50vh;
+        flex-direction: column;
+    }
+    .tit-img-index {
+        font-size: 1rem;
+    }
+    .txt-index {
+        font-size: 0.6rem;
+    }
+    .img-redes{
+        width: 45px;
+        height: 45px;
+    }
+    @media screen and (min-width: 320px) {
+
+    header{
+        background-color: #e97038;
+    
+        grid: header;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        height: 200px;
+    }
+        /* logo home */
+.logo-home{
+    padding: 20px;
+    border-radius: 60px;
+    width: 100px;
+    height: 100px;
+}
+
+.img-redes{
+    width: 35px;
+    height: 35px;
+}
