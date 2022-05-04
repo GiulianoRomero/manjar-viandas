@@ -1,0 +1,240 @@
+/* CSS AL ENTERO index */
+.entero-index {
+    background-color: #e97038;
+    border: solid 2px  #181412;
+
+   
+}
+
+/* estilado header */
+.header-index{
+    display:flex;
+
+}
+header{
+    background-color: #e97038;
+
+    grid: header;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.primer-tit {
+    font-family: Indie Flower, cursive;
+    margin-left: 40px;
+
+}
+.navegacion li{
+    display:inline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: space-around;
+}
+.navegacion ul{
+    height: 30px;
+    padding-left: 0%;
+}
+nav {
+    grid: nav;
+    padding: 1px;
+}
+
+    
+
+/* logo home */
+.logo-home{
+    padding: 20px;
+    border-radius: 60px;
+}
+
+
+}
+/* estilado REDES */
+.listas-redes{
+    grid: redes;
+    background-color: aqua;
+    padding: 30px;
+    
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    text-align: center;
+}
+#titulo-redes{
+    text-align: center;
+    justify-items: center;
+   
+    font-weight: 200px;
+    
+} 
+
+
+
+.redes {
+    display:flex;
+    justify-content: center;
+    padding: 0;
+}
+.redes li{
+    list-style-type: none;
+    margin: 10px;
+    width: 55px;
+    height: 55px;
+    
+}
+
+   
+}
+.redes a {
+    padding: 15px;
+   margin: 20px;
+}
+
+.tit-cuidate {
+    text-align: center;
+  }
+/* ESTILADO MAIN index*/
+main {
+    background-color: #e97038;
+}
+.main-index  {
+    grid: main;
+   
+ 
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    border: 2px solid black;
+    justify-content: space-between;
+}
+
+
+
+.main-index section  {
+    
+    text-align: center;
+    line-height: 25px;
+    border: 2px solid black;
+    width: 250px;
+    flex-direction: column;
+    
+  }
+  /* main opcionales */
+.main-opcionales {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 3fr;
+    grid-template-areas: 
+    "tit-opc tit-opc tit-opc"
+    "ensalada hamburguesa tortilla";
+   align-self: center;
+}
+.tit-opcionales{
+    grid-area:tit-opc;
+    text-align: center;
+    
+}
+.cesar {
+    grid-area: ensalada;
+   text-align: center;
+}
+.hamburguesa{
+    grid-area: hamburguesa;
+  text-align: center;
+}
+
+.tortilla {
+    grid-area:tortilla;
+    text-align: center;
+}
+/* main conocenos */
+.main-conoc{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 3fr;
+    grid-template-areas: 
+    "txt-conoc txt-conoc txt-conoc txt-conoc"
+    "pastel hamb raviol pollo"
+}
+.txt-conoc{
+    grid-area: txt-conoc;
+    text-align: center;
+}
+.pastel{
+    grid-area: pastel;
+}
+
+.hamb{
+    grid-area: hamb;
+}
+.raviol{
+    grid-area: raviol;
+}
+.pollo {
+    grid-area: pollo;
+}
+
+
+/* main menues */ 
+.main-menues{
+    display: flex;
+    text-align: center;
+}
+.main-menues section{
+    padding: 10px;
+    margin: 5px;
+    align-items: center;
+}
+
+/* main contacto */
+h5{
+    text-align: center;
+}
+#main-contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "formulario mapa";
+}
+.formulario {
+    grid-area: formulario;
+    width: 5rem;
+
+}
+.mapa {
+    grid-area: mapa;
+}
+/* estilo footer */
+.footer{
+    grid-area: footer;
+    background-color: #e97038;
+    margin: 0px;
+}
+.fin{
+    background-color: #e97038;
+    margin: 0px;
+}
+/* logo whatsapp */
+.loguito{
+    background-color: #e97038;
+    width: 55px;
+    height: 55px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 15px;
+    margin: 0px;
+}
+
+/* media queries */
+@media screen and (min-width: 768px) {
+.main-index section  {
+    
+    text-align: center;
+    line-height: 25px;
+    border: 2px solid black;
+    width: 250px;
+    flex-direction: column;
+    
