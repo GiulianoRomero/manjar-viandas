@@ -43,6 +43,7 @@ header{
 nav {
     grid: nav;
     padding: 1px;
+    background-color: #e97038 !important;
 }
 
     
@@ -51,8 +52,8 @@ nav {
 .logo-home{
     padding: 20px;
     border-radius: 60px;
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 150px;
 }
 
 
@@ -262,6 +263,16 @@ h5{
     height: 30vh;
     flex-direction: column;
 }
+
+
+/* logo home */
+.logo-home{
+    padding: 20px;
+    border-radius: 60px;
+    width: 150px;
+    height: 150px;
+}
+
 
 .imagen-index {
     width: 180px;
